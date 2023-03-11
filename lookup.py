@@ -40,6 +40,6 @@ with open(output_file, 'w') as f:
         # get the player's current username
         username = data['name']
         # write the UUID and username to the output file
-        f.write(f'{username} - {uuid} \n')
+        f.write(f'{username.ljust(20)} - {uuid} \n')
 
 print('Done!')

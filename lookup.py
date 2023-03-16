@@ -1,7 +1,9 @@
 import os
 import glob
 import requests
-from coloramma import Fore, Back, Style
+from coloramma import init, Fore
+
+init()
 
 # set the path to your playerdata folder
 playerdata_path = 'ENTER/YOUR/PATH/HERE'

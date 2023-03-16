@@ -1,7 +1,7 @@
 import os
 import glob
 import requests
-from coloramma import init, Fore xDDD
+from coloramma import init, Fore
 
 init()
 

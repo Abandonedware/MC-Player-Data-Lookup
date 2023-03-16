@@ -1,6 +1,7 @@
 import os
 import glob
 import requests
+from coloramma import Fore, Back, Style
 
 # set the path to your playerdata folder
 playerdata_path = 'ENTER/YOUR/PATH/HERE'
@@ -42,4 +43,4 @@ with open(output_file, 'w') as f:
         # write the UUID and username to the output file
         f.write(f'{username.ljust(20)} - {uuid} \n')
 
-print('Done!')
+print(Fore.GREEN + 'Done!')
